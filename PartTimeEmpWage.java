@@ -7,10 +7,10 @@ public class PartTimeEmpWage {
         int emprateperhr=20;
         int empHrs=0;
         int empWage=0;
-        double empcheck=Math.floor(Math.random()*10)%3;
-        if(empcheck==fulltime)
+        double empCheck=Math.floor(Math.random()*10)%3;
+        if(empCheck==fulltime)
             empHrs=8;
-        else if (empcheck==parttime)
+        else if (empCheck==parttime)
             empHrs=4;
 
         else
